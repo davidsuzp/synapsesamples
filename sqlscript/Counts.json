@@ -2,13 +2,13 @@
 	"name": "Counts",
 	"properties": {
 		"content": {
-			"query": "SELECT Count(*) as 'Tabla date' from dbo.date;\nSELECT Count(*) as 'Tabla Geografía' from dbo.geography;\nSELECT Count(*) as 'Tabla HackneyLicense' from dbo.HackneyLicense;\nSELECT Count(*) as 'Tabal Medallion' from dbo.Medallion;\nSELECT Count(*) as 'Tabla Time' from dbo.time;\nSELECT Count(*) as 'Tabla Trip' from dbo.Trip; \nSELECT Count(*) as 'Tabla Weather' from dbo.Weather",
+			"query": "SELECT Count(*) as 'Tabla date' from dbo.date;\n-- SELECT Count(*) as 'Tabla date' from dbo.date;\n\nSELECT Count(*) as 'Tabla Geografía' from dbo.geography;\nSELECT Count(*) as 'Tabla HackneyLicense' from dbo.HackneyLicense;\nSELECT Count(*) as 'Tabal Medallion' from dbo.Medallion;\nSELECT Count(*) as 'Tabla Time' from dbo.time;\nSELECT Count(*) as 'Tabla Trip' from dbo.Trip; \nSELECT Count(*) as 'Tabla Weather' from dbo.Weather",
 			"metadata": {
 				"language": "sql"
 			},
 			"currentConnection": {
-				"name": "SQLPoolDavidSP",
-				"type": "SqlPool"
+				"poolName": "SQLPoolDavidSP",
+				"databaseName": "SQLPoolDavidSP"
 			}
 		},
 		"type": "SqlQuery"
