@@ -1,0 +1,24 @@
+{
+	"name": "Retail_kr3",
+	"properties": {
+		"Description": "",
+		"Name": "Retail_kr3",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Retail\",\"Version\":\"0.1.0\"}}}",
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://filesystemadls2synapsedavidsp@adlsg2synapsedavidsp.dfs.core.windows.net/Retail_kr3",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "synapsedavidsp-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
