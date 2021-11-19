@@ -75,7 +75,7 @@
 			}
 		],
 		"parameters": {
-			"cw_item": {
+			"cw_items": {
 				"type": "Array",
 				"defaultValue": [
 					{
